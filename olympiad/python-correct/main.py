@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
-while 1:
-  a, b = map(int, input().split())
-  if a == 0 and b == 0:
-    break
-  answer = a + b
-  print(answer)
+for i in range(int(input())):
+	y=int(input())
+
+	ans=-1
+	if y>=1896 and y%4==0:
+		ans=1+(y-1896)//4
+	print(ans)
