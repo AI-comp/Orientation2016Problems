@@ -7,13 +7,13 @@
 ==
 入力は以下の形式で与えられる。
 
-```
+<pre>
 N
 A<sub>11</sub> A<sub>12</sub> A<sub>13</sub>
 A<sub>21</sub> A<sub>22</sub> A<sub>23</sub>
 :
 A<sub>N1</sub> A<sub>N2</sub> A<sub>N3</sub>
-```
+</pre>
 
 ここで、Nはデータセットの数、A<sub>ij</sub> (1 <= i <= N, 1 <= j <= 3) はi番目のデータセットにおける3つの整数を表す。
 
