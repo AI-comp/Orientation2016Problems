@@ -6,12 +6,13 @@ from constants import *
 def generateFile(index):
   filename = '50-random%02d.in' % index
   with open(filename, 'w') as f:
-    for i in xrange(20):
-      generateTestCase(f, random.randint(MIN, MAX), random.randint(MIN, MAX))
+    generateTestCase(f, random.randint(N_MIN, N_MAX))
     print >>f, 0, 0
 
-def generateTestCase(f, a, b):
-  print >>f, a, b
+def generateTestCase(f, n):
+  print >>f, n
+  for _ in xrange(n):
+    print >>f, random.randint(Y_MIN, Y_MAX)
 
 def main():
   for index in xrange(10):
@@ -19,3 +20,4 @@ def main():
  
 if __name__ == '__main__':
   main()
+

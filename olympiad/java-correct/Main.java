@@ -3,14 +3,15 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        while (true) {
-            int a = sc.nextInt();
-            int b = sc.nextInt();
-            if (a == 0 && b == 0) {
-                break;
+        int n = sc.nextInt();
+        for (int i = 0; i < n; i++) {
+            int y = sc.nextInt();
+            int passed = y - 1896;
+            if (passed >= 0 && passed % 4 == 0) {
+                System.out.println(passed / 4 + 1);
+            } else {
+                System.out.println(-1);
             }
-            int answer = a + b;
-            System.out.println(answer);
         }
     }
 }

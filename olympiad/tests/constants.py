@@ -1,5 +1,7 @@
 #!/usr/bin/python2
 
-MIN = -10000
-MAX = 10000
+N_MIN = 1
+N_MAX = 100
+Y_MIN = 1
+Y_MAX = 100000
 

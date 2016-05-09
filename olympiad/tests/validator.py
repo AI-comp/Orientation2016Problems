@@ -9,12 +9,11 @@ from checker import Checker
 def main():
   ch = Checker()
 
-  while True:
-    a, b = ch.readInts(2)
-    if a == 0 and b == 0:
-      break
-    ch.checkRange(a, MIN, MAX, 'A')
-    ch.checkRange(b, MIN, MAX, 'B')
+  n = ch.readInt()
+  ch.checkRange(n, N_MIN, N_MAX, 'N')
+  for _ in xrange(n):
+    y = ch.readInt()
+    ch.checkRange(y, Y_MIN, Y_MAX, 'Y')
 
 if __name__ == '__main__':
   main()
