@@ -1,18 +1,11 @@
-問題文
+問題文 in Japanese
 ==
 与えられた二つの整数の和を求めよ。
 
 なお、この問題は入出力の練習のために用意されている。
 問題の末尾にサンプルプログラムなどが示されているので、参考にせよ。
 
-Problem
-==
-Calculate the sum of the given two integers.
-
-Note that this problem is designed for you to practice handling standard input/output.
-Check sample programs at the end of the page.
-
-入力
+入力 in Japanese
 ==
 入力は複数のデータセットから成る。
 各データセットは、以下の形式で与えられる。
@@ -25,7 +18,20 @@ A, Bは整数であり、-10000 <= A <= 10000, -10000 <= B <= 10000を満たす�
 
 入力の終了は、"0 0"と書かれた1行によって示される ("入出力の例"を参照せよ)。
 
-Input
+出力 in Japanese
+==
+各データセットに対して、A+Bを1行ずつ出力せよ。
+
+なお、入力の終了を示す"0 0"に対しては何も出力しないこと。
+
+Problem in English
+==
+Calculate the sum of the given two integers.
+
+Note that this problem is designed for you to practice handling standard input/output.
+Check sample programs at the end of the page.
+
+Input in English
 ==
 The input consists of multiple sets of data.
 Each data set is given with the following format.
@@ -38,13 +44,7 @@ A and B are integers. A and B satisfy -10000 <= A <= 10000 and -10000 <= B <= 10
 
 The end of the input is represented as the line "0 0". Check "Sample Input / Output".
 
-出力
-==
-各データセットに対して、A+Bを1行ずつ出力せよ。
-
-なお、入力の終了を示す"0 0"に対しては何も出力しないこと。
-
-Output
+Output in English
 ==
 Write A+B on every other line with respect to each data set.
 
