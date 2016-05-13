@@ -2,6 +2,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.util.Random;
+import java.util.Set;
+import java.util.HashSet;
 
 public class Generator {
 	private static Random rnd = new Random(System.currentTimeMillis());
@@ -45,7 +47,7 @@ public class Generator {
 		File file = new File((50 + index) + "-random" + index + ".in");
 		try {
 			PrintStream stream = new PrintStream(file);
-			int n = generateRandomNum(1, 100);
+			int n = generateRandomNum(50, 100);
 			stream.println(n);
 			for (int i = 0; i < n; i++) {
 				generateLargeTestCase(stream);
@@ -58,9 +60,16 @@ public class Generator {
 	private static void generateSmallTestCase(PrintStream stream) {
 		int n = generateRandomNum(2, 10);
 		stream.println(n);
+
+		Set<Integer> set = new HashSet<Integer>();
 		for (int i = 0; i < n; i++) {
-			int x = generateRandomNum(0, 20);
-			int y = generateRandomNum(0, 20);
+			int x, y, ins;
+			do {
+				x = generateRandomNum(0, 20);
+				y = generateRandomNum(0, 20);
+				ins = 1000*x + y;
+			} while( set.contains(ins) );
+			set.add(ins);
 			stream.println(x + " " + y);
 		}
 	}
@@ -68,9 +77,16 @@ public class Generator {
 	private static void generateLargeTestCase(PrintStream stream) {
 		int n = generateRandomNum(2, 50);
 		stream.println(n);
+
+		Set<Integer> set = new HashSet<Integer>();
 		for (int i = 0; i < n; i++) {
-			int x = generateRandomNum(-100, 100);
-			int y = generateRandomNum(-100, 100);
+			int x, y, ins;
+			do {
+				x = generateRandomNum(-100, 100);
+				y = generateRandomNum(-100, 100);
+				ins = 1000*x + y;
+			} while( set.contains(ins) );
+			set.add(ins);
 			stream.println(x + " " + y);
 		}
 	}

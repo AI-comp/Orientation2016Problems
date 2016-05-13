@@ -42,6 +42,7 @@ Constraints
     * さらに、1 <= j <= N<sub>i</sub> を満たすすべての整数jについて、
         * -100 <= x<sub>ij</sub> <= 100
         * -100 <= y<sub>ij</sub> <= 100
+		* i /= j ならば (x<sub>i</sub>, y<sub>i</sub>) /= (x<sub>j</sub>, y<sub>j</sub>)
 
 Output
 -
