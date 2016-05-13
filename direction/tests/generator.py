@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 
 import random
 
@@ -13,6 +13,6 @@ def generate(index):
 def main():
   for index in xrange(5):
     generate(index)
- 
+
 if __name__ == '__main__':
   main()

@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 
 import os
 import sys
@@ -14,7 +14,7 @@ def main():
     if n == 0:
       break
     ch.checkRange(n, N_MIN, N_MAX, 'N')
-    
+
     ts_ = ch.readInts(n)
     for t in ts_:
       ch.checkRange(t, T_MIN, T_MAX, 'T')
