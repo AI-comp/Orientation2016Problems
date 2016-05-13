@@ -10,7 +10,7 @@ Problems
 Calculate the sum of the given two integers.
 
 Note that this problem is designed for you to practice handling standard input/output.
-Please check sample programs at the end of the page.
+Check sample programs at the end of the page.
 
 入力
 ==
@@ -36,7 +36,7 @@ A B
 
 A and B are integers. A and B satisfy -10000 <= A <= 10000 and -10000 <= B <= 10000, respectively.
 
-The end of the input is represented as the line "0 0". Please check "Example of Input/Output".
+The end of the input is represented as the line "0 0". Check "Sample Input / Output".
 
 出力
 ==
@@ -44,7 +44,13 @@ The end of the input is represented as the line "0 0". Please check "Example of 
 
 なお、入力の終了を示す"0 0"に対しては何も出力しないこと。
 
-入力例
+Output
+==
+Write A+B on every other line with respect to each data set.
+
+Note that write NOTGHIN to the line "0 0" indicating the end of the input.
+
+入力例 (Sample Input)
 ==
 <pre>
 1 2
@@ -52,7 +58,8 @@ The end of the input is represented as the line "0 0". Please check "Example of 
 -100 100
 0 0
 </pre>
-出力例
+
+出力例 (Sample Output)
 ==
 <pre>
 3
@@ -60,7 +67,7 @@ The end of the input is represented as the line "0 0". Please check "Example of 
 0
 </pre>
 
-サンプルプログラム
+サンプルプログラム (Sample Programs)
 ==
 * C
 
@@ -139,32 +146,31 @@ while true
 end
 ```
 
-
-ファイルの入出力方法など
+ファイルの入出力方法など (Answer Book)
 ==
 C
 --
 
-* コンパイル・実行
+* コンパイル・実行 (Compile / Run)
 
 ```
 gcc main.c
 ./a.out
 ```
 
-* ファイルから入力する
+* ファイルから入力する (Read input data from a file)
 
 ```
 ./a.out < in.txt
 ```
 
-* ファイルへ出力する
+* ファイルへ出力する (Write output data to a file)
 
 ```
 ./a.out > out.txt
 ```
 
-* ファイル入出力を同時に行う
+* ファイル入出力を同時に行う (Read input data from a file and write output data to a file)
 
 ```
 ./a.out < in.txt > out.txt
@@ -173,26 +179,26 @@ gcc main.c
 Java
 --
 
-* コンパイル・実行
+* コンパイル・実行 (Compile / Run)
 
 ```
 javac Main.java
 java Main
 ```
 
-* ファイルから入力する
+* ファイルから入力する (Read input data from a file)
 
 ```
 java Main < in.txt
 ```
 
-* ファイルへ出力する
+* ファイルへ出力する (Write output data to a file)
 
 ```
 java Main > out.txt
 ```
 
-* ファイル入出力を同時に行う
+* ファイル入出力を同時に行う (Read input data from a file and write output data to a file)
 
 ```
 java Main < in.txt > out.txt
