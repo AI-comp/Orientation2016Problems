@@ -44,6 +44,21 @@ The end of the input is represented as the line "0 0". Please check "Example of 
 
 なお、入力の終了を示す"0 0"に対しては何も出力しないこと。
 
+入力例
+==
+<pre>
+1 2
+-4 2
+-100 100
+0 0
+</pre>
+出力例
+==
+<pre>
+3
+-2
+0
+</pre>
 
 サンプルプログラム
 ==
@@ -182,4 +197,3 @@ java Main > out.txt
 ```
 java Main < in.txt > out.txt
 ```
-
