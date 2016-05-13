@@ -1,5 +1,8 @@
+title: H: ラボライフ！(Lab Life! -Univ. student festival-)
+
 <p><img src="画像URL:lab.png" alt="" width="50%" height="50%" /></p>
 <br>
+↑ここにhtmlで画像のリンクが入っています
 
 問題文
 ==
