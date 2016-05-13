@@ -7,7 +7,7 @@ dの表す方角(N,NW,W,SW,S,SE,E,NE)を答えよ。
 なお、下図のように、偏角dが45度のときNWとなることに注意せよ。
 
 <center>
-![](/system/images/attachments/000/000/002/original/compass_with_d.png?1463136094)
+![](画像URL:compass_with_d.png)
 
 <br>図: 偏角45度の例 </center>
 
