@@ -1,3 +1,4 @@
+title: A: 絶対値 (Absolute Value)
 問題文
 ==
 
