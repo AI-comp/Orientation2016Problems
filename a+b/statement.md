@@ -5,6 +5,13 @@
 なお、この問題は入出力の練習のために用意されている。
 問題の末尾にサンプルプログラムなどが示されているので、参考にせよ。
 
+Problems
+==
+Calculate the sum of the given two integers.
+
+Note that this problem is designed for you to practice handling standard input/output.
+Please check sample programs at the end of the page.
+
 入力
 ==
 入力は複数のデータセットから成る。
@@ -17,6 +24,19 @@ A B
 A, Bは整数であり、-10000 <= A <= 10000, -10000 <= B <= 10000を満たす。
 
 入力の終了は、"0 0"と書かれた1行によって示される ("入出力の例"を参照せよ)。
+
+Input
+==
+The input consists of multiple sets of data.
+Each data set is given with the following format.
+
+<pre>
+A B
+</pre>
+
+A and B are integers. A and B satisfy -10000 <= A <= 10000 and -10000 <= B <= 10000, respectively.
+
+The end of the input is represented as the line "0 0". Please check "Example of Input/Output".
 
 出力
 ==
