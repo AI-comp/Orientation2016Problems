@@ -5,7 +5,7 @@
 なお、この問題は入出力の練習のために用意されている。
 問題の末尾にサンプルプログラムなどが示されているので、参考にせよ。
 
-Problems
+Problem
 ==
 Calculate the sum of the given two integers.
 
@@ -48,7 +48,7 @@ Output
 ==
 Write A+B on every other line with respect to each data set.
 
-Note that write NOTGHIN to the line "0 0" indicating the end of the input.
+Note that write NOTHING to the line "0 0" indicating the end of the input.
 
 入力例 (Sample Input)
 ==
