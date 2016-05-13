@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-#define MAX 1000
+#define MAX 10000
 
 // sieve of Eratosthenes
 void make_list(bool *arr, int sz){
