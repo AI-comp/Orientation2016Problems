@@ -11,16 +11,6 @@ dの表す方角(N,NW,W,SW,S,SE,E,NE)を答えよ。
 
 <br>図1. 偏角45度の例 </center>
 
-Problem
-==
-Answer the direction (N,NW,W,SW,S,SE,E,NE) represented by the argument d of counterclockwise rotation from north.
-Figure 1 shows that the direction represented by the argument d is 45-degree is NW.
-
-<center>
-![](画像URL:compass_with_d.png)
-
-<br>Figure 1. an example where the argument d is 45-degree </center>
-
 入力
 ==
 入力は複数のデータセットから成る。
@@ -34,6 +24,22 @@ dは北からの偏角を表す (d は 0, 45, 90, 135, 180, 225, 270, 315 のい
 
 入力の終了は、"-1"と書かれた1行によって示される。
 
+出力
+==
+各データセットに対して、dの表す方角を1行ずつ出力せよ。
+
+なお、入力の終了を示す"-1"に対しては何も出力しないこと。
+
+Problem
+==
+Answer the direction (N,NW,W,SW,S,SE,E,NE) represented by the argument d of counterclockwise rotation from north.
+Figure 1 shows that the direction represented by the argument d is 45-degree is NW.
+
+<center>
+![](画像URL:compass_with_d.png)
+
+<br>Figure 1. an example where the argument d is 45-degree </center>
+
 Input
 ==
 The input consists of multiple data sets.
@@ -46,12 +52,6 @@ d
 d indicates an argument of counterclockwise rotation from north (d is either 0, 45, 90, 135, 180, 225, 270 or 315).
 
 The end of the input is represented as the line "-1".
-
-出力
-==
-各データセットに対して、dの表す方角を1行ずつ出力せよ。
-
-なお、入力の終了を示す"-1"に対しては何も出力しないこと。
 
 Output
 ==
