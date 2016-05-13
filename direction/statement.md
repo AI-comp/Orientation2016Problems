@@ -1,6 +1,6 @@
 title: C: 方角 (Direction)
 
-問題文
+問題文 in Japanese
 ==
 北からの反時計回りの偏角dが与えられる。
 dの表す方角(N,NW,W,SW,S,SE,E,NE)を答えよ。
@@ -11,7 +11,7 @@ dの表す方角(N,NW,W,SW,S,SE,E,NE)を答えよ。
 
 <br>図1. 偏角45度の例 </center>
 
-入力
+入力 in Japanese
 ==
 入力は複数のデータセットから成る。
 各データセットは、以下の形式で与えられる。
@@ -24,13 +24,13 @@ dは北からの偏角を表す (d は 0, 45, 90, 135, 180, 225, 270, 315 のい
 
 入力の終了は、"-1"と書かれた1行によって示される。
 
-出力
+出力 in Japanese
 ==
 各データセットに対して、dの表す方角を1行ずつ出力せよ。
 
 なお、入力の終了を示す"-1"に対しては何も出力しないこと。
 
-Problem
+Problem in English
 ==
 Answer the direction (N,NW,W,SW,S,SE,E,NE) represented by the argument d of counterclockwise rotation from north.
 Figure 1 shows that the direction represented by the argument d is 45-degree is NW.
@@ -40,7 +40,7 @@ Figure 1 shows that the direction represented by the argument d is 45-degree is 
 
 <br>Figure 1. an example where the argument d is 45-degree </center>
 
-Input
+Input in English
 ==
 The input consists of multiple data sets.
 Each data set is given with the following format.
@@ -53,7 +53,7 @@ d indicates an argument of counterclockwise rotation from north (d is either 0, 
 
 The end of the input is represented as the line "-1".
 
-Output
+Output in English
 ==
 Write the direction represented by d with respect to each data set.
 
