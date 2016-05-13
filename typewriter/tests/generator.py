@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 
 import random
 import string
@@ -19,6 +19,6 @@ def generateTestCase(f, l):
 def main():
   for index in xrange(10):
     generateFile(index)
- 
+
 if __name__ == '__main__':
   main()
