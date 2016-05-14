@@ -56,7 +56,7 @@ N and A<sub>ij</sub> are integers and satisfy the following constraints.
 
 Output in English
 ==
-On the ith line (1 <= i <= N), write the minimum absolute value of the difference between two integers of the ith data set.
+Write the minimum absolute value of the difference between two integers of the ith data set on the ith line (1 <= i <= N).
 
 入力例 (Sample Input)
 ==

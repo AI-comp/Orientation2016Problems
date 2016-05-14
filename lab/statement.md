@@ -64,7 +64,7 @@ Problem in English
 ==
 Kazunori is an enthusiastic player of the game "Lab Life!".
 
-Players play this game by consuming LP (Lab-tick points).
+Players play this game by consuming LP (Lab-slave points).
 LP is gradually restored over time and players may use "Lab-power drink" to restore LP completely so that they go ahead with this game.
 
 A new event "Ring Ring♪ Round-Table Discussion Festival" will be held from tomorrow.

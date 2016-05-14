@@ -1,6 +1,6 @@
 title: F: 温度差に注意(temperature)
 
-問題文
+問題文 in Japanese
 ==
 あなたは、N 個の都市をそれぞれ 1回 ずつ旅行しようとしている。
 都市を訪れる順番は様々考えられるが、訪れる都市の温度の変化が大きすぎると体調に響いて大変である。
@@ -14,7 +14,7 @@ title: F: 温度差に注意(temperature)
 左の旅行では温度差の絶対値の合計が20となるが、右の旅行では30となる。
 </center>
 
-入力
+入力 in Japanese
 ==
 入力は複数のデータセットから成る。
 各データセットは、以下の形式で与えられる。
@@ -31,7 +31,47 @@ T<sub>i</sub>は i 番目の都市の気温を表す (-50 <= T<sub>i</sub> <= 50
 
 入力の終了は、"0"と書かれた1行によって示される。
 
-出力
+出力 in Japanese
+==
+各データセットに対して、温度差の合計の最小値を1行ずつ出力せよ。
+
+なお、入力の終了を示す"0"に対しては何も出力しないこと。
+
+Problem in English
+==
+You plan to visit to N cities once.
+Although there are many possible routes for visiting cities, a temperature difference between two cities has an affect on your physical condition.
+
+あなたは、N 個の都市をそれぞれ 1回 ずつ旅行しようとしている。
+都市を訪れる順番は様々考えられるが、訪れる都市の温度の変化が大きすぎると体調に響いて大変である。
+したがって、隣り合う都市の温度差の絶対値の合計が、最も小さくなるような旅行をしたい。
+それぞれの都市の気温データが与えられるので、温度差の合計の最小値を求めよ。
+
+<center>
+![](画像URL: temperature.png)
+<br>
+図: 旅行の例。<br>
+左の旅行では温度差の絶対値の合計が20となるが、右の旅行では30となる。
+</center>
+
+Input in English
+==
+入力は複数のデータセットから成る。
+各データセットは、以下の形式で与えられる。
+
+<pre>
+N
+T<sub>1</sub> T<sub>2</sub> ... T<sub>N</sub>
+</pre>
+
+1行目に、都市の数Nが与えられる (2 <= N <= 100)。
+
+2行目に、各都市の気温データが与えられる。
+T<sub>i</sub>は i 番目の都市の気温を表す (-50 <= T<sub>i</sub> <= 50)。
+
+入力の終了は、"0"と書かれた1行によって示される。
+
+Output in English
 ==
 各データセットに対して、温度差の合計の最小値を1行ずつ出力せよ。
 
