@@ -1,4 +1,4 @@
-<p><img src="/system/images/attachments/000/000/003/original/lab.png?1463193736" alt="" width="50%" height="50%" /></p>
+<p><img src="lab.png" alt="" width="50%" height="50%" /></p>
 <br>
 
 Problem Statement
