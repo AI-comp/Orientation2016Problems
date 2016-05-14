@@ -11,7 +11,7 @@ Thus, you want to choose the best route where the sum of the absolute temperatur
 Given temperature values of each city, calculate the minimum sum of the absolute temperature difference values.
 
 <center>
-![](画像URL: temperature.png)
+![](images/temperature.png)
 <br>
 Figure: 旅行の例。(A Route example)<br>
 左の旅行では温度差の絶対値の合計が20となるが、右の旅行では30となる。<br>
