@@ -68,7 +68,7 @@ The end of the input is represented as the line "0".
 
 Output in English
 ==
-Write the minimum sum of the absolute temperature difference with respect to each data set.
+Write the minimum sum of the absolute temperature difference on every other line with respect to each data set.
 
 Note that write NOTHING to the line "0" indicating the end of the input.
 

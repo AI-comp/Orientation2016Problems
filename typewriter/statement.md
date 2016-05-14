@@ -16,6 +16,22 @@ title: D: タイプライター(typewriter)
 
 なお、リールは初めaを表示している。
 
+Problem in English
+==
+A bear named Shigenobu has a toy typewriter.
+The typewriter consists a reel for entering lowercase alphabetes (a-z) and three buttons for handling them.
+The buttons are a button for moving the reel forth, a button for moving the reel back and a button for writing an alphabet in corresponding to the current position of the reel.
+One day, he notice that the typewriter is broken when he send a letter to a friend rabbit named Azusa.
+He ask you to write a program which simulate the typewriter because he has no time to fix the typewriter.
+
+Given a command string which consists of three signs (+, -, .), write an output text.
+The sign means as follow:
+* +: moving the reel forth (a->b, b->c, ..., y->z, z->a)
+* -: moving the reel back (z->y, y->x, ..., b->a, a->z)
+* .: writing a an alphabet in corresponding to the current position of the reel
+
+Note that the first position of the reel indicates "a".
+
 入力
 ==
 入力は複数のデータセットから成る。
@@ -33,6 +49,21 @@ Sは'+', '-', '.'のみから構成される。
 
 入力の終了は、"0"と書かれた1行によって示される。
 
+Input in English
+==
+The input consists of multiple sets of data.
+Each data set is given with the following format.
+
+<pre>
+L
+S
+</pre>
+
+L is a length of a command string (1 <= L <= 500).
+S is a command string which consists of '+', '-' and '.'.
+
+The end of the input is represented as the line "0".
+
 出力
 ==
 各データセットに対して、タイプライターが出力する文字列を1行ずつ出力せよ。
@@ -40,3 +71,11 @@ Sは'+', '-', '.'のみから構成される。
 **ただし、リールは各データセットの初めごとにaを示すように戻る。**
 
 なお、入力の終了を示す"0"に対しては何も出力しないこと。
+
+Output in English
+==
+Write the output text of the typewriter on every other line with respect to each data set.
+
+**Note that the position of the reel is back to "a" in every data set.**
+
+Note that write NOTHING to the line "0" indicating the end of the input.
