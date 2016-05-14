@@ -8,7 +8,7 @@ dの表す方角(N,NW,W,SW,S,SE,E,NE)を答えよ。
 Figure 1 shows that the direction represented by the argument d is 45-degree is NW.
 
 <center>
-![](/system/images/attachments/000/000/001/original/compass_with_d.png?1463192709)
+![](images/compass_with_d.png)
 
 <br>Figure1. 偏角45度の例<br> (an example where the argument d is 45-degree) </center>
 
