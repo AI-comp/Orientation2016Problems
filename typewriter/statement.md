@@ -55,7 +55,7 @@ Sは'+', '-', '.'のみから構成される。
 >The end of the input is represented as the line "0".
 
 
-出力
+Output
 ==
 各データセットに対して、タイプライターが出力する文字列を1行ずつ出力せよ。
 

@@ -64,6 +64,7 @@ Sample Input
 </pre>
 
 Sample Output
+==
 <pre>
 20
 60

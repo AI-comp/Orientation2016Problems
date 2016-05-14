@@ -32,7 +32,7 @@ dは北からの偏角を表す (d は 0, 45, 90, 135, 180, 225, 270, 315 のい
 
 >The end of the input is represented as the line "-1".
 
-出力 in Japanese
+Output
 ==
 各データセットに対して、dの表す方角を1行ずつ出力せよ。
 
